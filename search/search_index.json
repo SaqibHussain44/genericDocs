@@ -1,0 +1,24 @@
+{
+    "docs": [
+        {
+            "location": "/", 
+            "text": "Generic Login System\n\n\n\n\nlogin\n\n\nhttp POST:\n  \nhttp://172.25.33.42:8080/login\n\n\nJSON\n  \n\n\n{    \n    \nrecord\n:    \ngander\n,  \n    \nemail\n:     \nyouremail@gmail.com\n,  \n    \npassword\n:  \nAbc123@!\n  \n}    \n\n\n\n\nConsiderations\n  \n\n\n\n\nrecord\n would be the name of the system you're loging in e.g. \n(gander, tokenlab, mistwallet)\n\n\npassword\n must be minimum 8 character, with one Upper one lower character and a digit \n\n\nemail\n and \npassword\n format is validated on the server as well\n\n\n\n\n\n\n\n\nSignup\n\n\nhttp POST:\n  \nhttp://172.25.33.42:8079/signup\n\n\nJSON\n  \n\n\n{    \n    \nrecord\n:    \ngander\n,\n    \nusername\n:  \ntest user\n,  \n    \nemail\n:     \nyouremail@gmail.com\n,  \n    \npassword\n:  \nAbc123@!\n  \n}    \n\n\n\n\nConsiderations\n  \n\n\n\n\nrecord\n would be the name of the system you're loging in e.g. \n(gander, tokenlab, mistwallet)\n\n\npassword\n must be minimum 8 character, with one Upper one lower character and a digit \n\n\nwhole document format is validated on the server", 
+            "title": "Http calls"
+        }, 
+        {
+            "location": "/#generic-login-system", 
+            "text": "", 
+            "title": "Generic Login System"
+        }, 
+        {
+            "location": "/#login", 
+            "text": "http POST:    http://172.25.33.42:8080/login  JSON     {    \n     record :     gander ,  \n     email :      youremail@gmail.com ,  \n     password :   Abc123@!   \n}      Considerations      record  would be the name of the system you're loging in e.g.  (gander, tokenlab, mistwallet)  password  must be minimum 8 character, with one Upper one lower character and a digit   email  and  password  format is validated on the server as well", 
+            "title": "login"
+        }, 
+        {
+            "location": "/#signup", 
+            "text": "http POST:    http://172.25.33.42:8079/signup  JSON     {    \n     record :     gander ,\n     username :   test user ,  \n     email :      youremail@gmail.com ,  \n     password :   Abc123@!   \n}      Considerations      record  would be the name of the system you're loging in e.g.  (gander, tokenlab, mistwallet)  password  must be minimum 8 character, with one Upper one lower character and a digit   whole document format is validated on the server", 
+            "title": "Signup"
+        }
+    ]
+}
